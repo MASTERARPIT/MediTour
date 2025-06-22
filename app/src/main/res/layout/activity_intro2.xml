@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C2"
+    tools:context=".Intro1"
+
+    >
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="67dp"
+        android:text="Your Gateway to"
+        android:textColor="@color/c1"
+        android:textSize="@dimen/_28ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="@dimen/_399sdp"
+        android:layout_height="@dimen/_105sdp"
+        android:layout_alignTop="@+id/welcome"
+        android:layout_alignBottom="@+id/welcome"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-268dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="-110dp"
+        android:layout_toEndOf="@+id/welcome"
+        android:text="Advance Medical \nFacilities."
+        android:textColor="@color/c1"
+        android:textSize="@dimen/_27ssp"
+        android:textStyle="italic" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next2"
+        android:layout_width="77dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="77dp"
+        android:backgroundTint="@color/C3"
+        android:clickable="true"
+        app:srcCompat="@drawable/next" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:backgroundTint="@color/C3"
+        android:layout_marginBottom="77dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="271dp"
+        android:layout_height="402dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="171dp"
+        app:srcCompat="@drawable/img" />
+
+
+</RelativeLayout>
